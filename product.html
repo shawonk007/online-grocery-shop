@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required Meta Tag -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Muhammad Nasir Uddin Khan Shawon" />
+  <meta name="description" content="Shop fresh groceries from the comfort of your home with Groceria - your one-stop online grocery store. Easy ordering, fast delivery, and quality products guaranteed." />
+  <!-- Web Page Title -->
+  <title>Product | Groceria - Online Grocery Shop</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon" />
+  <!-- Font Awesome : CSS -->
+  <link rel="stylesheet" href="./plugins/font-awesome/css/all.min.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css" />
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="./plugins/owl-carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./plugins/owl-carousel/css/owl.theme.default.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/scss/styles.css" />
+</head>
+
+<body>
+  <!-- Scroll-to-Top Button -->
+  <button id="top" type="button" class="btn btn-scroll-top" >
+    <i class="fas fa-angle-up"></i>
+  </button>
+  <!-- HEADER -->
+  <header class="bg-light py-2">
+    <!-- Top Header -->
+    <div class="container d-md-flex top-header align-items-center">
+      <div class="d-flex flex-wrap align-items-center">
+        <i class="fas fa-phone me-2"></i>
+        <a href="tel:+880124567890" class="text-dark text-decoration-none me-4">+88 (012) 34-567890</a>
+        <i class="fas fa-envelope me-2"></i>
+        <a href="mailto:info@example.com" class="text-dark text-decoration-none me-4">info@example.com</a>
+      </div>
+      <div class="d-flex flex-wrap align-items-center">
+        <i class="fas fa-map-marker-alt me-2"></i>
+        <span class="text-dark me-4">Mirpur, Dhaka-1216</span>
+        <i class="fas fa-clock me-2"></i>
+        <span class="text-dark">9AM to 11PM</span>
+      </div>
+    </div><!-- /.top-header -->
+  </header>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md bg-light navbar-light shadow-sm sticky-top py-3">
+    <div class="container">
+      <!-- Navbar Brand -->
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/images/logo.png" width="150" alt="" />
+      </a><!-- /.navbar-brand -->
+      <!-- Navbar Toggler -->
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span><!-- /.navbar-toggler-icon -->
+      </button><!-- /.navbar-toggler -->
+      <!-- Navbar Collapse -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a><!-- /.nav-link -->
+          </li><!-- /.nav-item -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a><!-- /.nav-link -->
+          </li><!-- /.nav-item -->
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a><!-- /.nav-link -->
+          </li><!-- /.nav-item -->
+          <li class="nav-item">
+            <a class="nav-link" href="category.html">Category</a><!-- /.nav-link -->
+          </li><!-- /.nav-item -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a><!-- /.nav-link -->
+          </li><!-- /.nav-item -->
+        </ul><!-- /.navbar-nav -->
+        <ul class="navbar-nav icon-menu ms-auto">
+          <li class="nav-item">
+            <a class="btn btn-outline-primary rounded-circle" href="#">
+              <i class="fas fa-search"></i>
+            </a><!-- /.btn -->
+          </li><!-- /.nav-item -->
+          <li class="nav-item">
+            <a class="btn btn-outline-primary rounded-circle position-relative" href="wishlist.html">
+              <i class="fas fa-heart"></i>
+              <span class="badge bg-primary rounded-circle position-absolute" style="top: -12px; right: -8px;" >0</span>
+            </a><!-- /.btn -->
+          </li><!-- /.nav-item -->
+          <li class="nav-item">
+            <a class="btn btn-outline-primary rounded-circle position-relative" href="cart.html">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="badge bg-primary rounded-circle position-absolute" style="top: -12px; right: -8px;" >0</span>
+            </a><!-- /.btn -->
+          </li><!-- /.nav-item -->
+          <li class="nav-item">
+            <a class="btn btn-outline-primary rounded-circle" href="login.html">
+              <i class="fas fa-user"></i>
+            </a><!-- /.btn -->
+          </li><!-- /.nav-item -->
+        </ul><!-- /.navbar-nav -->
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+  </nav><!-- /.navbar -->
+  <!-- CAROUSEL -->
+  <div id="demo" class="carousel slide delivary" data-bs-ride="carousel">
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <p class="py-2 m-0 text-center">
+          <i class="fas fa-truck-fast"></i>
+          <span>Delivery charges will be <span class="badge bg-secondary">Free</span> only in <b>Mirpur</b></span>
+        </p>
+      </div><!-- /.carousel-item -->
+      <div class="carousel-item">
+        <p class="py-2 m-0 text-center">
+          <i class="fas fa-truck-fast"></i>
+          <span>Delivery charges will be <span class="badge bg-secondary">BDT. 60/-</span> only in <b>Dhaka</b></span>
+        </p>
+      </div><!-- /.carousel-item -->
+      <div class="carousel-item">
+        <p class="py-2 m-0 text-center">
+          <i class="fas fa-truck-fast"></i>
+          <span>Delivery charges will be <span class="badge bg-secondary">BDT. 120/-</span> outside <b>Dhaka</b></span>
+        </p>
+      </div><!-- /.carousel-item -->
+    </div><!-- /.carousel-inner -->
+  </div><!-- /.carousel -->
+  <!-- MAIN CONTENT -->
+  <main>
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 p-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="display-image">
+                  <img src="./assets/images/shop/product-07/01.webp" class="" alt="..." />
+                </div>
+                <div class="image-gallery owl-carousel owl-theme mt-3">
+                  <div class="item">
+                    <div class="card p-0 m-0">
+                      <div class="card-body p-0 m-0">
+                        <img src="./assets/images/shop/product-07/01.webp" class="" alt="..." />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card p-0 m-0">
+                      <div class="card-body p-0 m-0">
+                        <img src="./assets/images/shop/product-07/02.jpg" class="" alt="..." />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card p-0 m-0">
+                      <div class="card-body p-0 m-0">
+                        <img src="./assets/images/shop/product-07/03.jpeg" class="" alt="..." />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card p-0 m-0">
+                      <div class="card-body p-0 m-0">
+                        <img src="./assets/images/shop/product-07/04.jpg" class="" alt="..." />
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /.card-gallery -->
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 p-2">
+            <div class="card">
+              <div class="card-header">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                      <a href="category.html">Health & Wellness</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Food Suppliments</li>
+                  </ol>
+                </nav>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Standard Horlicks</h4>
+                <p class="card-text pt-2">
+                  <span class="badge bg-success">
+                    <i class="fas fa-star"></i>
+                    <span class="ps-1">4.5 Star</span>
+                  </span>
+                  <span class="ps-2">35 Ratings & 45 Reviews Given</span>
+                </p>
+                <hr>
+                <div class="card-text">
+                  <h6>Highlights</h6>
+                  <p style="text-align: justify;" >
+                    Filled with a wide range of vitamins and minerals including as Calcium, Iron, Zinc, Phosphorous, Vitamins A, C, E, D, B1, B2, B6, B12 - Horlicks is a nourishing beverage that helps support your child’s growth. Produced from a mix of malted barley, wheat and milk, this unrivaled tasty recipe has been providing nutrition to people for many years. Horlicks helps to make kids Taller, Stronger and Sharper!
+                  </p>
+                </div>
+                <hr>
+                <table class="table table-borderless">
+                  <tbody>
+                    <tr>
+                      <th class="ps-0 pe-0">
+                        <h6>SKU</h6>
+                      </th>
+                      <td class="ps-0 pe-1">:</td>
+                      <td class="ps-0 pe-0">
+                        <p>HWFS-001</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="ps-0 pe-0">
+                        <h6>Category</h6>
+                      </th>
+                      <td class="ps-0 pe-1">:</td>
+                      <td class="ps-0 pe-0">
+                        <a href="category.html" class="nav-link">Food Suppliments</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="ps-0 pe-0">
+                        <h6>Brand</h6>
+                      </th>
+                      <td class="ps-0 pe-1">:</td>
+                      <td class="ps-0 pe-0">
+                        <p>Unilever</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="ps-0 pe-0">
+                        <h6>Price</h6>
+                      </th>
+                      <td class="ps-0 pe-1">:</td>
+                      <td class="ps-0 pe-0">
+                        <h6>
+                          <strong>BDT.</strong>
+                          <span id="price" class="badge bg-secondary ms-2"></span>
+                        </h6>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <hr>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                      <label for="size">Size</label>
+                      <select id="size" class="form-control mt-2">
+                        <option value="small">250 gm</option>
+                        <option value="medium" selected >500 gm</option>
+                        <option value="large">1000 gm</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-group">
+                      <label for="qty">Quantity</label>
+                      <div class="input-group mt-2">
+                        <button class="btn btn-sm btn-secondary btn-decrement">
+                          <i class="fas fa-minus"></i>
+                        </button>
+                        <input type="text" name="" class="form-control text-center qty" id="qty" value="1" min="1" />
+                        <button class="btn btn-sm btn-secondary btn-increment">
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col">
+                    <a href="#" class="btn btn-outline-danger d-block">
+                      <i class="fas fa-heart"></i>
+                      <span class="ps-1">Add to Wishlist</span>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="cart.html" class="btn btn-outline-primary d-block">
+                      <i class="fas fa-shopping-cart"></i>
+                      <span class="ps-1">Add to Cart</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#description">Description</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#purchase">Purchase & Delivery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#replace">Replace Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#comment">Comment</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="description" class="container tab-pane active"><br>
+            <h3>Description</h3>
+            <ul class="list-group mt-5">
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Horlicks Health and Nutrition Drink Jar.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">It contains the goodness of malted barley and wheat with zero cholesterol, high protein, and no added sugar.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">The High Protein, it contains, is known to help in cell maintenance and repair.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Lite Horlicks contains 6 anti-oxidant nutrients (Selenium, Copper, Zinc, Vitamin C, B2 .and E) that are known to contribute to the protection of cells from oxidative stress.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Filled with a wide range of key vital nutrients and minerals.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Net Weight: 250gm | 500gm | 1000gm </span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Delivery is available.</span>
+              </li>
+            </ul>
+          </div>
+          <div id="purchase" class="container tab-pane fade"><br>
+            <h3>Purchase Step</h3>
+            <ul class="list-group my-5">
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Select number of product you want to buy.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Click on Add to Cart button.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">If you are a new user, please click on Sign Up. Then sign up by providing the required information.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Use your user name & password if you are a registered customer.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Choose your payment (Check out) method.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Follow required instruction based on payment method.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Full advance Payment is required for the delivery outside Dhaka.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Order confirmation and delivery completion are subject to product availability.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Once sold, the product cannot be returned & replaced until it has a warranty.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Please check your product at the time of delivery.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Disclaimer: Product color may slightly vary due to photography, lighting sources or your monitor settings.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">The product will deliver based on product availability.</span>
+              </li>
+            </ul>
+            <h3>How to pay:</h3>
+            <ul class="list-group mt-5">
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Cash on Delivery</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Card - Stripe, Visa, Master, Amex, Debit, Credit, Paypal</span>
+              </li>
+            </ul>
+          </div>
+          <div id="replace" class="container tab-pane fade"><br>
+            <h3>Product Replace</h3>
+            <ul class="list-group mt-5">
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Please check your products in front of riders or courier service agents.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Product will be replaced if it has any defect by its manufacturer.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Customer needs to inform us within 24 hours from the date of delivery*.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Products must be with the tags intact and in their original packaging, in an unwashed and undamaged condition.</span>
+              </li>
+              <li class="list-group-item">
+                <i class="far fa-circle-check"></i>
+                <span class="ps-2">Replacement for products is subject to inspection and checking by Groceria team.</span>
+              </li>
+            </ul>
+          </div>
+          <div id="comment" class="container tab-pane fade"><br>
+            <h3>Comment</h3>
+            <p>Your must <a href="login.html">login</a> to submit your comment</p>
+            <form action="" aria-disabled="true" >
+              <div class="row">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                  <h6>Your Ratings</h6>
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-4 col-xxl-8">
+                  <div>
+                    <a disabled >
+                      <i class="far fa-star"></i>
+                    </a>
+                    <a disabled >
+                      <i class="far fa-star"></i>
+                    </a>
+                    <a disabled >
+                      <i class="far fa-star"></i>
+                    </a>
+                    <a disabled >
+                      <i class="far fa-star"></i>
+                    </a>
+                    <a disabled >
+                      <i class="far fa-star"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                  <h6>Your Comment</h6>
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-4 col-xxl-8">
+                  <div class="input-group mt-2">
+                    <textarea name="" class="form-control w-100" id="message" rows="10" placeholder="Type your comment here" disabled ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4"></div>
+                <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-4 col-xxl-8">
+                  <button type="submit" class="btn btn-outline-primary w-100" >Submit</button>
+                </div>
+              </div>
+              <div class="form-group mt-4">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <p class="mt-3" style="text-align: justify;" >
+              Horlicks Health and Nutrition Drink Jar 500g is a health drink which is specially designed to suit the nutritional needs of adults. It contains the goodness of malted barley and wheat with zero cholesterol, high protein, and no added sugar. The High Protein, it contains, is known to help in cell maintenance and repair. Lite Horlicks contains 6 anti-oxidant nutrients (Selenium, Copper, Zinc, Vitamin C, B2 and E) that are known to contribute to the protection of cells from oxidative stress. Filled with a wide range of key vital nutrients and minerals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container featured position-relative">
+        <h3 class="position-absolute">Related Products</h3>
+        <!-- Card Gallery -->
+        <div class="featured-left owl-carousel owl-theme pt-4">
+          <div class="item">
+            <a href="#">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/images/shop/product-08/02.jpg" class="" alt="..." />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/images/shop/product-09/01.jpg" class="" alt="..." />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/images/shop/product-11/01.jpeg" class="" alt="..." />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/images/products/cat-01/nestle-koko-krunch-chocolate-cereal-box-300-gm.webp" class="" alt="..." />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/images/products/cat-01/nestle-nescafe-classic-instant-coffee-jar-50-gm.webp" class="" alt="..." />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/images/products/cat-01/cadbury-dairy-milk-silk-plain-chocolate-bar-150-gm.webp" class="" alt="..." />
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER WIDGETS -->
+  <section class="py-5" style="background-color: rgb(228, 227, 227);" >
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
+          <div class="position-relative">
+            <img src="./assets/images/logo.png" width="250" alt="">
+            <p class="text-justify text-xs mt-2 mb-3">
+              "Shop fresh groceries from the comfort of your home with Groceria - your one-stop online grocery store. Easy ordering, fast delivery, and quality products guaranteed."
+            </p>
+            <div class="footer-info">
+              <p class="text-xs py-0 my-1">
+                <span>
+                  <i class="fas fa-phone"></i>
+                </span>
+                <span class="ps-3 pe-2">:</span>
+                <span>+88 (012) 34-567890</span>
+              </p>
+              <p class="text-xs py-0 my-1">
+                <span>
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="ps-3 pe-2">:</span>
+                <span>info@example.com</span>
+              </p>
+              <p class="text-xs py-0 my-1">
+                <span>
+                  <i class="fas fa-location-dot"></i>
+                </span>
+                <span class="ps-3 pe-2">:</span>
+                <span>Mirpur, Dhaka-1216</span>
+              </p>
+            </div><!-- /.footer-info -->
+          </div>
+        </div><!-- /.col -->
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="row">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <!-- Widget -->
+              <div class="widget">
+                <h6>Informations</h6>
+                <ul class="navbar-nav text-xs mt-3">
+                  <a href="disclaimer.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Disclaimer</span>
+                  </a><!-- /.nav-link -->
+                  <a href="blog.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Blog Page</span>
+                  </a><!-- /.nav-link -->
+                  <a href="terms.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Terms of Service</span>
+                  </a>
+                  <!-- /.nav-link -->
+                  <a href="faq.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">F.A.Q</span>
+                  </a><!-- /.nav-link -->
+                </ul><!-- /.navbar-nav -->
+              </div><!-- /.widget -->
+            </div><!-- /.col -->
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <!-- Widget -->
+              <div class="widget">
+                <h6>Featured</h6>
+                <ul class="navbar-nav text-xs mt-3">
+                  <a href="category.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Home & Cleaning</span>
+                  </a><!-- /.nav-link -->
+                  <a href="category.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Beauty Products</span>
+                  </a><!-- /.nav-link -->
+                  <a href="category.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Kitchen Appliances</span>
+                  </a><!-- /.nav-link -->
+                  <a href="category.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Health Products</span>
+                  </a><!-- /.nav-link -->
+                </ul><!-- /.navbar-nav -->
+              </div><!-- /.widget -->
+            </div><!-- /.col -->
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <!-- Widget -->
+              <div class="widget">
+                <h6>Our Policies</h6>
+                <ul class="navbar-nav text-xs mt-3">
+                  <a href="privacy.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Privacy Policy</span>
+                  </a><!-- /.nav-link -->
+                  <a href="shipping.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Shipping Policy</span>
+                  </a><!-- /.nav-link -->
+                  <a href="return.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Return Policy</span>
+                  </a><!-- /.nav-link -->
+                  <a href="refund.html" class="nav-link py-1">
+                    <i class="fas fa-hand-point-right"></i>
+                    <span class="ps-2">Refund Policy</span>
+                  </a><!-- /.nav-link -->
+                </ul><!-- /.navbar-nav -->
+              </div><!-- widget -->
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /.col -->
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
+          <div class="newsletter">
+            <h5>Subscribe for Newsletter</h5>
+            <form action="" class="form-floating" >
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" placeholder="John Doe" />
+                <label for="name">Full Name</label>
+              </div><!-- /.form-floating -->
+              <div class="form-floating">
+                <input type="email" class="form-control" id="email" placeholder="someone@example.com" />
+                <label for="email">Email Address</label>
+              </div><!-- /.form-floating -->
+              <div class="btn-group d-grid mt-3">
+                <button type="submit" class="btn btn-outline-primary" >
+                  <i class="fas fa-envelope"></i>
+                  <span class="ps-2">Subscribe</span>
+                </button><!-- /.btn -->
+              </div><!-- /.btn-group -->
+            </form><!-- /.form-floating -->
+          </div><!-- /.newsletter -->
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </section><!-- ./footer-widgets -->
+  <!-- FOOTER BAR -->
+  <footer class="py-2" style="background-color: rgb(228, 227, 227);">
+    <div class="container d-md-flex footer-bar align-items-center">
+      <div class="d-flex flex-wrap align-items-center">
+        <p class="py-0 my-0">
+          <span>2023</span>
+          <span class="ps-1 pe-1">|</span>
+          <span class="pe-1">Created By :</span>
+          <a href="http://www.shawon-khan.com" style="text-decoration: none;" target="_blank">Shawon Khan</a>
+        </p>
+      </div>
+      <div class="d-flex social-media flex-wrap align-items-center">
+        <a href="http://www.facebook.com/shawonkhan.cupid" class="btn btn-outline-secondary rounded-circle" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a><!-- /.btn -->
+        <a href="http://www.twitter.com/shawonk9999" class="btn btn-outline-secondary rounded-circle" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a><!-- /.btn -->
+        <a href="http://www.linkedin.com/in/shawonkhan007" class="btn btn-outline-secondary rounded-circle" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a><!-- /.btn -->
+        <a href="http://www.instagram.com/shawonk9999" class="btn btn-outline-secondary rounded-circle" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a><!-- /.btn -->
+        <a href="http://www.behance.com/shawonk9999" class="btn btn-outline-secondary rounded-circle" target="_blank">
+          <i class="fab fa-behance"></i>
+        </a><!-- /.btn -->
+        <a href="http://www.github.com/Iamcupid" class="btn btn-outline-secondary rounded-circle" target="_blank">
+          <i class="fab fa-github"></i>
+        </a><!-- /.btn -->
+      </div>
+    </div><!-- /.footer-bar -->
+  </footer>
+  <!-- jQuery -->
+  <script src="./plugins/jQuery/jquery-3.6.4.min.js"></script>
+  <!-- Font Awesome : JS -->
+  <script src="./plugins/font-awesome/js/all.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="./plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Owl Carousel -->
+  <script src="./plugins/owl-carousel/js/owl.carousel.min.js"></script>
+  <!-- Custom JS -->
+  <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
