@@ -1,3 +1,3 @@
 # online-grocery-shop
 
-Live Preview : https://demo-03.shawon-khan.com/
+Live Preview : https://demo.shawon-khan.com/grocery-shop/
